@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.creationText {
+  font-size: 35px;
+  font-weight: 1000;
+}
+
+.text-input {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: 2px solid #333;
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  width: 30%;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.text-input:focus {
+  outline: none;
+  border-color: #bb86fc;
+}
+
+footer {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #bb86fc;
+}
+
+address {
+  margin-top: 10px;
+  font-style: normal;
+}
+
+footer a {
+  display: block;
+  margin-top: 10px;
+  color: #bb86fc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #e0e0e0;
+}
